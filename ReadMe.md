@@ -84,3 +84,13 @@ There are
 - variable tensors
 - constant tensors 
 what to use and where is decided by tensorflow
+
+
+# Random Tensors
+- Having the seed present (st seed for reproducibility.)
+- To have reproducible experiences, it is important to have the shuffling done in the same order no matter the number of times, we seek to run our data through the net.
+This is made possible by setting the random seed at a both the Global and Operational level.
+
+
+# Numpy Array vs TF Tensors
+- tensors can be run on GPU hence faster
