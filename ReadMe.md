@@ -90,7 +90,27 @@ what to use and where is decided by tensorflow
 - Having the seed present (st seed for reproducibility.)
 - To have reproducible experiences, it is important to have the shuffling done in the same order no matter the number of times, we seek to run our data through the net.
 This is made possible by setting the random seed at a both the Global and Operational level.
+- Normal vs Uniform distribution -> Uniform aka Rectangular distrbution: has constant probability.
+- Random distribution has a numbers generated but in a bell-shaped manner.
+- Having a different seed value while perfoming normal distribution gives us different values for the randomly generated tensors.
+* seed(42) eliminates some form of randomness while generating text.
+
+## Reproducible Randomness
+- Have both a global and operation level seed set.
+
 
 
 # Numpy Array vs TF Tensors
 - tensors can be run on GPU hence faster
+
+# Shuffling:
+This is important given:
+    Eliminates biasness: Given 15000 photos of tea 'n chapo
+    Say 1000 of chapo and 5000 of tea.
+    If the neural net is to learn from the first 1k photos of chapo
+    It will have no idea how tea looks like, hence the shuffling allows the model
+    learn better, 200- chapos, 450- tea etc.
+
+
+### X_TRAIN : UPPERCASE == ARRAY
+### y_train : lowercase == vector
