@@ -112,8 +112,8 @@ This is important given:
     learn better, 200- chapos, 450- tea etc.
 
 
-### X_TRAIN : UPPERCASE == ARRAY
-### y_train : lowercase == vector
+> ### X_TRAIN : UPPERCASE == ARRAY
+> ### y_train : lowercase == vector
 
 # Tensor Attributes
 * Shape : length/no. of elements of each of the dimensions of a Tensor
@@ -121,4 +121,4 @@ This is important given:
 * Rank : no. of tensor dimensions. 'tf.ndim'
 * Dimension/Axis : Access a particular dimension of a tensor
 
-> 'Most of the Time: We spend in shaping our tensors for either entry into a model or exit.'
+> Most of the Time: We spend in shaping our tensors for either entry into a model or understanding the outputs of a model, so that we can shape our inputs.
