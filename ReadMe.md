@@ -114,3 +114,11 @@ This is important given:
 
 ### X_TRAIN : UPPERCASE == ARRAY
 ### y_train : lowercase == vector
+
+# Tensor Attributes
+* Shape : length/no. of elements of each of the dimensions of a Tensor
+* Size : total number of items in the tensor
+* Rank : no. of tensor dimensions. 'tf.ndim'
+* Dimension/Axis : Access a particular dimension of a tensor
+
+> 'Most of the Time: We spend in shaping our tensors for either entry into a model or exit.'
