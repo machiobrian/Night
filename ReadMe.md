@@ -140,3 +140,6 @@ This is important given:
 > 1. Its done in the background for us.
 
 > 2. Most of the time, operation on a tensor is `Transposition`
+
+# Changing the dtype of a tensor
+> `default dtype either float/int32`
