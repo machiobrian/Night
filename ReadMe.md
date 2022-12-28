@@ -162,4 +162,13 @@ This is important given:
 ### Squeezing a Tensor
 * Removes dimensions of size 1 from the shape of a tensor.
 
+### One-Hot Encoding
+*this is a form on Numerical encoding*
+> `Setting every other value to 0 in a row, and just one value to 1`
+
+>          Green Blue Red
+>            1   0   0 
+>            0   1   0 
+>            0   0   1
+
 
