@@ -171,4 +171,7 @@ This is important given:
 >            0   1   0 
 >            0   0   1
 
+### Always check the datatypes:
+> `tf.constant() : This method of creating an array has the default as float/int 32`
 
+> `np.array([]): This method has the default as float/int 64`
