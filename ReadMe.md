@@ -122,3 +122,21 @@ This is important given:
 * Dimension/Axis : Access a particular dimension of a tensor
 
 > Most of the Time: We spend in shaping our tensors for either entry into a model or understanding the outputs of a model, so that we can shape our inputs.
+
+
+## Rules for Matrix/Tensor Muliplication
+> `1. The inner dimensions must match [3,2] and [2,3] : 2 & 2 are the inner dims `
+
+> `2. The resulting matrix has the shape of the outter dimension`
+* By transposing (X) or Y, the outter dimensions are different, hence an observable change in both the outresulting matrix size.
+
+## Why tf.reshape and tf.transpose is different.
+> `transpose flips the axis, while reshape, shuffles the tensors into the shape I want`
+
+# The Dot Product.
+`tf.tensordot()`
+
+### So when do we do transpose or reshape
+> 1. Its done in the background for us.
+
+> 2. Most of the time, operation on a tensor is `Transposition`
