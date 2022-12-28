@@ -155,3 +155,11 @@ This is important given:
 >   `measure of dispersion for a dataset`
 
 >   `the squareroot of variance`
+
+### Positional Maximum and Minimum.
+* It is as basic as, at what point/`[index]`/position, in the tensor does the minimum and maximum value occur
+
+### Squeezing a Tensor
+* Removes dimensions of size 1 from the shape of a tensor.
+
+
