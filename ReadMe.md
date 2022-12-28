@@ -143,3 +143,15 @@ This is important given:
 
 # Changing the dtype of a tensor
 > `default dtype either float/int32`
+
+# Aggregation
+> `gather data and express in summary form`
+* Minimum
+* Maximum
+* Mean
+* Sum
+
+### `Standard Deviation`
+>   `measure of dispersion for a dataset`
+
+>   `the squareroot of variance`
