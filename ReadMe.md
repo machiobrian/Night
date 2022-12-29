@@ -175,3 +175,9 @@ This is important given:
 > `tf.constant() : This method of creating an array has the default as float/int 32`
 
 > `np.array([]): This method has the default as float/int 64`
+
+### Regression Problem
+> `Answer the questions "How much/many" "numbers - coordinates of (bounding boxes)"`
+* Also, dependent/`output` (outcome vars) and independent/`input` (predictors, covariates, features) variables `relationship`
+
+> #### `Always Note: Most of the Machine Learning task is in Tweaking the Inputs to be fed in a Model and Observing/Investigating and Studying the model's Output`
