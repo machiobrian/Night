@@ -200,3 +200,11 @@ Can be done while
 > Fitting a model
 * have more epochs `increase the number of times the model goes through the training data`
 
+>> Have Training datasets in percentages of say 10
+
+* This allows one to first run a model, `a number of times` on smaller datasets, taking shorter times, hence making observations on performance before training it on large dataset
+* Allows running as many experiments as possible, to figure out what dosesn't work, before increasing our params
+
+* The `Optimizer_learning_rate` is by far most the most important hyperparam to tune
+* The Simplest to tune is the `number of epochs`
+* The number of `hidden_layers`, the `activation_fxn` are also important.
