@@ -116,7 +116,7 @@ This is important given:
 > ### y_train : lowercase == vector
 
 # Tensor Attributes
-* Shape : length/no. of elements of each of the dimensions of a Tensor
+* Shape : length/no. of elements of each of the dimensions of a Tensor `[Also, the number of Input vectors]`
 * Size : total number of items in the tensor
 * Rank : no. of tensor dimensions. 'tf.ndim'
 * Dimension/Axis : Access a particular dimension of a tensor
@@ -180,4 +180,11 @@ This is important given:
 > `Answer the questions "How much/many" "numbers - coordinates of (bounding boxes)"`
 * Also, dependent/`output` (outcome vars) and independent/`input` (predictors, covariates, features) variables `relationship`
 
-> #### `Always Note: Most of the Machine Learning task is in Tweaking the Inputs to be fed in a Model and Observing/Investigating and Studying the model's Output`
+> #### `Always Note: Most of the Machine Learning task is in Tweaking the Inputs to be fed in a Model and Observing/Investigating and Studying the model's Output` - Defining Inputs and Outputs
+
+## Hyperparameters
+> A parameter set prior to training a model.
+* Their values cannot be estimated from data - trial and error.
+* Techniques trial and error: `Grid Search & Random Search.`
+* Techniques hyperparam optimization: `Bayesian optimization`
+> Hyperparams: `learning rate, no. of hidden-units(layers and neurons), activition function, optimizer {how well the model is to learn and improve the loss function}, loss function`
