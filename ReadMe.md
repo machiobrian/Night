@@ -74,7 +74,7 @@ is it 1 or 0 ?
 
 
 # Definitions:
-- Scalar : a single number
+- Scalar : a single number; have no dimension
 - Vector : a number w/direction
 - Matrix : a 2-D array of numbers
 - Tensor : an n-dim array of numbers
@@ -182,9 +182,21 @@ This is important given:
 
 > #### `Always Note: Most of the Machine Learning task is in Tweaking the Inputs to be fed in a Model and Observing/Investigating and Studying the model's Output` - Defining Inputs and Outputs
 
-## Hyperparameters
+# Hyperparameters
 > A parameter set prior to training a model.
 * Their values cannot be estimated from data - trial and error.
 * Techniques trial and error: `Grid Search & Random Search.`
 * Techniques hyperparam optimization: `Bayesian optimization`
-> Hyperparams: `learning rate, no. of hidden-units(layers and neurons), activition function, optimizer {how well the model is to learn and improve the loss function}, loss function`
+> Hyperparams: `learning rate, no. of hidden-units(layers and neurons), activition function, optimizer {how well the model is to learn and improve the loss function}, loss function {tells our model how wrong we are}`
+
+# Model Improvements:
+Can be done while
+> Creating a Model
+* change activation function of each layer
+* increase the number of units (hidden layers and neurons) 
+> Compiling a Model
+* change the optimization function
+* change the learning-rate of an optimization function
+> Fitting a model
+* have more epochs `increase the number of times the model goes through the training data`
+
