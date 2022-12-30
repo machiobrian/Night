@@ -208,3 +208,14 @@ Can be done while
 * The `Optimizer_learning_rate` is by far most the most important hyperparam to tune
 * The Simplest to tune is the `number of epochs`
 * The number of `hidden_layers`, the `activation_fxn` are also important.
+
+`Evaluating a Model` : visualize visualize visualize
+* The data - what data are working with
+* The Model - what does it look like
+* The Training - how it perfomes as it learns
+* The Predictions - how they lines up with ground truth (labeled data)
+
+`Sets`
+* Training Set - the model is taught on this piece of data
+* `Validation Set - the model is tweaked/tuned on this data, typically 10-15% of available data`
+* Test Set - this is where the model is evaluated, we test what it has learnt
