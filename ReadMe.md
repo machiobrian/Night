@@ -237,3 +237,6 @@ Can be done while
 
 > `An increase in number of hidden layers increases the number of non/trainable params, also, increasing the number of shapes for a single [Dense] layer`
 * Weight Matrix and a Bias-vector
+
+### Visualizing our Model's Predictions
+* Its a great idea to plot the `predictions` against `ground_truth`
