@@ -224,3 +224,16 @@ Can be done while
 `Visualizing a Model before it is fit()`
 * Always specify the `input_shape` on the first layer.
 * Create, Compile the Model as usual
+> `Parameters`: These are the patterns that the model is going to learn, also, the total number of parameters in the model
+
+> `Hyper-Parameters` : The tweakable/alterable/adjustable values before training a model
+
+### After Visualizing a Model: Definitions
+
+* Total Params - total number of parameters in the model. Also, the patterns the model is supposed to learn from.
+* Trainable params - the parameters or the patterns the model can updaete as it runs.
+> While `importing an already trained model`, we `freeze` the `learnt patterns`, therefore we may have both trainable and non-trainable params.
+* Non-Trainable params - already learnt patterns that we do not want to update them during training; the ones we freeze `Non-trainable params makes more sense during Transfer Learning.`
+
+> `An increase in number of hidden layers increases the number of non/trainable params, also, increasing the number of shapes for a single [Dense] layer`
+* Weight Matrix and a Bias-vector
