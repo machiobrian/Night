@@ -219,3 +219,8 @@ Can be done while
 * Training Set - the model is taught on this piece of data
 * `Validation Set - the model is tweaked/tuned on this data, typically 10-15% of available data`
 * Test Set - this is where the model is evaluated, we test what it has learnt
+
+
+`Visualizing a Model before it is fit()`
+* Always specify the `input_shape` on the first layer.
+* Create, Compile the Model as usual
