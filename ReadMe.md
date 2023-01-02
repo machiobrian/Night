@@ -159,7 +159,7 @@ This is important given:
 ### Positional Maximum and Minimum.
 * It is as basic as, at what point/`[index]`/position, in the tensor does the minimum and maximum value occur
 
-### Squeezing a Tensor
+## Squeezing a Tensor
 * Removes dimensions of size 1 from the shape of a tensor.
 
 ### One-Hot Encoding
@@ -240,3 +240,13 @@ Can be done while
 
 ### Visualizing our Model's Predictions
 * Its a great idea to plot the `predictions` against `ground_truth`
+
+
+### Regression Tasks
+`MAE` - Mean Absolute Error: 'on average, how wrong is each of my models predictions'
+`MSE` - Mean Square Error: 'square the average errors' - when having large erros
+`Huber` - basically a combo of MSE and MAE. Less sensitive to outliers.
+
+> |labels - predictions|
+
+* Squeezing and Adding a dimension are both ways to make models fit either for evaluations or any other task:
