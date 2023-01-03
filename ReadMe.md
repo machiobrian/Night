@@ -250,3 +250,9 @@ Can be done while
 > |labels - predictions|
 
 * Squeezing and Adding a dimension are both ways to make models fit either for evaluations or any other task:
+
+`Quiz:`
+	while evaluating a model performance, when do we squeeze and when do we expand dimensions ?
+	
+`Ans:`
+	it all depends on the models structure.
