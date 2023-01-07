@@ -256,3 +256,6 @@ Can be done while
 	
 `Ans:`
 	it all depends on the models structure.
+
+
+## `On the First Dense input layer, always learn to define the input_shape=[1]`
