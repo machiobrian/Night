@@ -259,3 +259,23 @@ Can be done while
 
 
 ## `On the First Dense input layer, always learn to define the input_shape=[1]`
+
+> Note: Building a model is all about experimenting and experimenting, therefore, learn to start with small model then make sure they work before proceeding to large models. This minimizes the waiting time between model training
+
+
+# Tracking our Experiments
+* Allows monitoring and tracking the performance of our experiments
+> TensorBoard - built into tf, 
+
+> Weights and Biases - a tool for tracking all kinds of ML experiments: plugs into tensorboard
+
+# Saving a Model  
+`Saved-Model Format` - saved using `model.save(file_name)` can be loaded using tf.keras.model.load_model
+`HDF5 format` - saved using `model.save(file_name)` 
+> * the hdf5 is a universal format, allows use in other applications - heirachial data format
+
+### Saving a file allows us to:
+* Save the model's arhitecture, allowing to re-instantiate the model
+* Save the model weights: the patterns the model learnt
+* The State of the Optimizer - allows us to resume the training where we left-off
+
