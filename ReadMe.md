@@ -285,3 +285,10 @@ Can be done while
 * Since we are dealing with numbers its a Linear Regression Problem.
 * age sex bmi children smoker region - `inputs,features,predictors` - independent variables
 * charges - `the outcome we are predicting` - dependent variables
+
+`sklearn's test_train_split` divides our dataset (X,y) into 4 respectively:
+* X_train
+* X_test
+* y_train
+* y_test
+> Always note: All manner of training comes before testing.
