@@ -279,3 +279,9 @@ Can be done while
 * Save the model weights: the patterns the model learnt
 * The State of the Optimizer - allows us to resume the training where we left-off
 
+#------------------------------------------------------------------------------------------------------------------------------------#
+### Medical Cost Estimation:
+* We are using features/predictors to estimate the cost of medical charges
+* Since we are dealing with numbers its a Linear Regression Problem.
+* age sex bmi children smoker region - `inputs,features,predictors` - independent variables
+* charges - `the outcome we are predicting` - dependent variables
