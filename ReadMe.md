@@ -301,6 +301,8 @@ Can be done while
 
 > Desirable lr - when shown a white dog, he would quickly understand that black is not an important feature of dogs and would look for another feature.
 
+## Other forms of Tuning our hyperparamweters
+* Normalizing is a thing that can be done on the data to be passed into the model to improve perfomance
 #### Normalization aka Scale
 * change values of numeric column to a common scale
 * does not distort differences in range of values
