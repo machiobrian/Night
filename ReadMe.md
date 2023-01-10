@@ -292,3 +292,12 @@ Can be done while
 * y_train
 * y_test
 > Always note: All manner of training comes before testing.
+
+* Hyperparameters aka Optimizer: Tuning often involves choosing the right optimizer/optimizer values
+* `Learning-rate` - Defines the adjustment of our weights wrt loss gradient descent. `Determines how fast/slow we move towards optimal weights` "How fast does it take you to adjust to new content, also how unbiased are you.
+> Low lr - I have known dogs to be black therefore, all dogs are black. A white one, ain't really a dog but an outlier
+
+> High lr - I have known dogs to be black, now that I have seen a white one, all dogs are supposed to be white, forget about black.
+
+> Desirable lr - when shown a white dog, he would quickly understand that black is not an important feature of dogs and would look for another feature.
+
