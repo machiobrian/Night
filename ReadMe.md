@@ -307,7 +307,7 @@ Can be done while
 * change values of numeric column to a common scale
 * does not distort differences in range of values
 * most prefered for machine learning
-* use MinMaxScaler scikit-learn
+* use MinMaxScaler scikit-learn - set everything btn 1 and 0
 
 #### Standardization
 * 
