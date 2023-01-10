@@ -301,3 +301,12 @@ Can be done while
 
 > Desirable lr - when shown a white dog, he would quickly understand that black is not an important feature of dogs and would look for another feature.
 
+#### Normalization aka Scale
+* change values of numeric column to a common scale
+* does not distort differences in range of values
+* most prefered for machine learning
+* use MinMaxScaler scikit-learn
+
+#### Standardization
+* 
+* 
