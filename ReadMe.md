@@ -23,14 +23,15 @@ DL - works best w/unstructred data
 # Neural Nets
 Network of neurons 
 
-To pass into a Neural Net, we have to encode (*turn input (image, sound, text) into numbers*)
-Numerical Data - Tensor
-Feed tensor into NN.
-Neural net learns the ~Representation: *patterns, features, weights*
-Creates some Representation outputs. - Tensors still
-Turn the tensors into human readable form.
+To pass into a Neural Net, we have to
+* Encode (*turn input (image, sound, text) into numbers*)
+* Numerical Data - Tensor
+* Feed tensor into NN.
+* Neural net learns the ~Representation: *patterns, features, weights*
+* Creates some Representation outputs. - Tensors still
+* Turn the tensors into human readable form.
 
-# Inputs -> Numerical Encoding -> Learns Representation (NN) -> Representatio O/p -> Outputs
+## Inputs -> Numerical Encoding -> Learns Representation (NN) -> Representation O/p -> Outputs
 
 Input Layer -> Hidden Layer -> Output Layer. 
 
@@ -312,3 +313,17 @@ Can be done while
 #### Standardization
 * 
 * 
+
+#### Batch_size - normally 32 for tf
+* allows us not to run into "out of memory issues"
+* images - [batch_size, width, height, color_channels] - tensor representation
+# Classification
+* Classify one thing as one thing or another
+> Types: Binary, Multiclass, Multilabel
+* multilabel - each sample has one label
+* multiclass - 
+* Binary - 1/0 labels
+* A classification problem can be: Binary (is it a dog ?)or Multiclass (is this a dog, plate or fruit)
+### Loss Function for Classification Problems
+* Cross-entropy : common loss function for classification problems
+> Binary classification: Binary, Multiclass classification: CategoricalCrossEntropy
