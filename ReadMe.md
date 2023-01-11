@@ -327,3 +327,6 @@ Can be done while
 ### Loss Function for Classification Problems
 * Cross-entropy : common loss function for classification problems
 > Binary classification: Binary, Multiclass classification: CategoricalCrossEntropy
+
+# Non-linearity
+> machine learning models use both linear and non-linear activation functions to find pattterns in data
