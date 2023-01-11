@@ -330,3 +330,22 @@ Can be done while
 
 # Non-linearity
 > machine learning models use both linear and non-linear activation functions to find pattterns in data
+
+
+## From own findings:
+
+* Having the model select the best param for you can trash my performance - for now:
+* MANUALLY TUNE MY HYPERPARAMS
+
+## Classification Evaluation Methods
+> They take in the truth value and compare them to the values that shuld have been predicted.
+* Accuracy - Default metric for classification problem
+* Precision - high precision reduces the number of false `positives`
+* Recall - high precision reduces the number of false `negatives`
+> However, we have `Precision/Recall Tradeoff` - having a high precision automatically lowers the recall value and viceversa
+* F1-score - solution to precision/recall tradeoff, combination of precision and recall. It is generally a good overall metric
+* Confusion_matrix - comparing predictions to truth labels to see where models get confused. 
+> It is however difficult to use with large number of classes.
+
+# Note:
+* The standard output format from activations - softmax and sigmoid are in probability form
